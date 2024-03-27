@@ -1,0 +1,439 @@
+body{
+    margin:0;
+    font: 17px Arial, Helvetica, sans-serif;
+ }
+ nav{
+     background-color:#0025ff;
+     width: 100%;
+     height: 97px;
+     position: fixed;
+ }
+ .pepicon{
+     float:left;
+     width: 60px;
+     height: 60px;
+     padding-left: 37px;
+     padding-top: 20px;
+ }
+ nav ul {
+      float:left; 
+ 
+ }
+ nav ul li a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        /* font: 17px Arial, Helvetica, sans-serif; */
+        font-weight:999;
+         letter-spacing:-1px;
+         text-align: left;
+         
+         
+     }
+ nav ul li{
+     display: inline-block;
+     margin-top: 19px;
+     margin-right: 34px;
+     
+ }
+ .downarrow{
+     width: 10px;
+     height: 7px;
+     margin-left:8px;
+     margin-bottom: 2.5px;
+     cursor: pointer;
+ }
+ .buypepsi{
+    
+    float:right; 
+   
+    margin-right: 53px;
+    margin-top: 12px;
+    
+   
+  
+    
+ } 
+ 
+ .buypepsi input{
+   
+     margin-top: 18px;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 999;
+     background-color: #0025ff;
+     border-radius: 23px;
+      color: white;
+     
+     border:solid 2.5px;
+     padding:5px 20px  ;
+     cursor: pointer;
+ }
+ .buypepsi input:hover{
+     background-color: #fff;
+     color: #0025ff;
+ }
+
+   /* first--page */
+
+
+   .pepsi-video{
+    width: 100%;
+   height: 100%;
+    /* visibility: hidden; */
+}
+
+/* second--page */
+
+.secondpage{
+    margin-top: -4.5px;
+    width: 100%;
+    height: 75vw;
+background-image: url("https://www.pepsi.com/en-us/refresh082123/images/wild-cherry/3296846-wild-cherry-2024-digital-rd-3-1920-x-1080@2x.png");    
+   justify-content: center;
+   position: relative;
+ background-size: cover;
+ 
+}
+.secondpcol{
+    width: 448px;
+    height:120px;
+    margin-top: 971px;
+    margin-left: 530px;
+    font:55px Arial, Helvetica, sans-serif;
+    font-weight:1000;
+    letter-spacing: -3px;
+    color: rgb(0, 0, 0);
+    border:none;
+}
+.secondpcol:hover{
+    color: #fff;
+    background-color: #0025ff;
+    
+}
+
+
+/* third page */
+
+.thierd-page{
+    background-image: url(https://www.pepsi.com/en-us/refresh082123/images/wild-cherry/wc-tvc-bg-tablet-vert@2x.png);
+     width: 100%;
+     height: 1163px;
+}
+.trdpagtitle{
+    width: 90%;
+    height: 197px;
+    padding-left: 71px;
+    padding-top: 57px;
+}
+.fan-nysery{
+    width:100%;
+    height: 904px;
+    display: flex;
+    
+}
+.one{
+     flex: 1;
+     
+    }
+
+.oneimage{
+    padding-top: 33px;
+    padding-left:33px;
+    width:94%;
+    cursor:pointer;
+}
+
+.borderone{
+      margin-top: 56px;
+      margin-left: 150PX;
+      
+}
+
+
+.fanborder{
+    width:484px;
+    height:75px;
+    font: 41px Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    letter-spacing: -1px;
+    word-spacing: -9px;
+    border:none;
+    cursor:pointer;
+}
+.fanborder:hover{
+    background-color: #0025ff;
+    color: #fff;
+}
+.two{
+    flex: 1;
+}
+.twoimage{
+    padding-top: 33px;
+    padding-right:33px;
+    width:94%;
+    cursor:pointer;
+}
+.bordertwo{
+    margin-top:56px;
+    margin-left:150px;
+    
+
+}
+.nurseryborder:hover{
+    background-color: #0025ff;
+    color: #fff;
+}
+.nurseryborder{
+    width:484px;
+    height:75px;
+    font: 41px Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    letter-spacing: -1px;
+    word-spacing: -9px;
+    border:none;
+    cursor:pointer;
+}
+
+
+/* fourth-page */
+
+.fourth-page{
+    width: 100%;
+    height: 100%;
+   
+}
+.fouvideo{
+    width: 100%; 
+}
+
+
+/* fifth-page  */
+
+.fifth-page{
+    background-color: black;
+     width: 100%;
+     height: 358px;
+     margin-top: -41.9px;
+}
+ 
+.fifth-header{
+   
+    color: #0025ff;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-align: center ;
+    font-size: 43px;
+     height:39px;
+     padding-top: 12px;
+}
+ .imagesline{    
+   float: left;
+ padding-left: 120px;
+ }    
+.inline{
+     
+      width: 1272px;  
+      height: 212px; 
+      margin-left: -2px; 
+      border:  #0025ff  4px;
+      border-style: outset;
+        
+}
+.cubeone{
+     height: 212px;
+     width: 212px;
+     background-image: url("images/cubeone PEPSI_2023_PR_WCPZS_Cans.png");
+     background-repeat: no-repeat;
+     float: left;
+     background-size: contain;
+    }
+.cubeinsta{
+    width: 32px;
+    padding-left: 9px;
+    padding-top: 166px;
+}
+.cubetwo{
+    height: 212px;
+    width: 212px;
+     background-image: url("images/col2\ PEPSI_2023_PR_Licensing.png");
+     background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+}
+.cubex{
+    width: 32px;
+    padding-left: 9px;
+    padding-top: 166px;
+}
+.cubethree{
+    
+    background-image: url("images/cube3\ PEPSI_2023_PR_Logo+Cans.png");
+    height: 212px;
+    width: 212px;
+    background-repeat: no-repeat; 
+   float: left;
+   background-size: contain;
+}
+.cubefacebook{
+    width: 32px;
+    padding-left: 9px;
+    padding-top: 166px;
+}
+.cubefour{
+    background-image: url("images/cube4\ PEP_TITAN_R34_LaunchAssets_Burger_EF_v1.png");
+    height: 212px;
+    width: 212px;
+    background-repeat: no-repeat;
+    background-size: contain;
+   float: left;
+}
+.cubeyoutube{
+    width: 32px;
+    padding-left: 9px;
+    padding-top: 166px;
+}
+.cubefive{
+    background-image: url("images/cube5\ PEPSI_2023_PR_Photography_Overhead.png");
+    height: 212px;
+    width: 212px;
+    background-repeat: no-repeat;
+    background-size: contain;
+   float: left;
+}
+.cubetiktok{
+    width: 32px;
+    padding-left: 9px;
+    padding-top: 166px;
+}
+.cubesix{
+    background-image: url("images/cube6\ THREADS.png");
+    height: 212px;
+    width: 212px;
+    background-repeat: no-repeat;
+    background-size: contain;
+   float: left;
+}
+.cubethread{
+    width: 32px;
+    padding-left: 9px;
+    padding-top: 166px;
+}
+
+
+
+
+.bottompepsi{
+    width: 100%;
+    height: 292px;
+    background-color:#0025ff;
+    display: flex;
+    
+}
+
+.pepimage{
+    width: 101px;
+    height: 101px;
+    padding-left: 35px;
+    padding-top: 80px;
+    
+    
+}
+.oune,.twoo,.three,.icons{
+     
+      flex:1;
+      height: 15px;
+       padding-top: 80px;
+      font-size: 11px;
+      font-style: initial;
+      
+}
+.pepsico{
+    flex: 0.5;
+    padding-bottom: 29px;
+    
+}
+footer ul{
+    
+    text-align:left;
+    list-style: none;
+    font-family: arial black;
+     color: #fff;
+     justify-content: space-between;
+}
+.oune ul{
+    height: 15px;
+    width: 188px;
+    line-height: 16px;
+    font-size: 7px;
+
+    
+
+}
+
+.twoo ul{
+    height: 15px;
+    width: 188px;
+    line-height: 25px;
+    font-size: 15px;
+   
+}
+
+.three ul{
+    font-size: 14.5px;
+    line-height: 25px;
+    
+}
+
+.icons{
+    display: inline;
+    padding-top: 119px;
+    height:15px;
+    
+    
+    flex:1;
+}
+.instaicon{
+    height: 32px;
+    padding-right: 15px;
+    width: 32px;
+    
+
+}
+.xicon{
+    height: 32px;
+    width: 32px;
+    padding-right: 15px;
+
+}
+.faceicon{
+    height: 32px;
+    width: 32px;
+     padding-right: 15px;
+
+}
+.youtuicon{
+    height: 32px;
+    width: 32px;
+    padding-right: 15px;
+
+}
+.tiktokicon{
+    height: 32px;
+    width: 32px;
+    padding-right: 15px;
+
+}
+.threadsicon{
+    height: 32px;
+    width: 32px;
+    padding-right: 15px;
+
+}
+.bottomline{
+    padding-top: 85px;
+    padding-left: 119px;
+    text-decoration: underline;
+    font-weight: 1000;
+    font-size: 13.7px;
+    color: #fff;
+}
